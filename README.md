@@ -1,10 +1,10 @@
 # Mobile Device Frames
 ### Add Simple CSS iPad Frames to preview your Web App
 
-Mobile Device Frames by @AlanThinks
-Version 1.0
-www.AlanThinks.com
-github.com/alanthinks
+Mobile Device Frames by @AlanThinks  
+Version 1.0  
+www.AlanThinks.com  
+github.com/alanthinks  
 
 Includes:
 1. iPad White Frame
@@ -13,9 +13,9 @@ Includes:
 **How To Use:**
 *Should be used with 2 divs:*
 1. Outside div with the frame color and type:
-```css
-<div class="white ipad-frame">
-```
+   ```css
+   <div class="white ipad-frame">
+   ```
 2. Inner div where you set the div size to match the device screen size (eg. `<div class="ipad-screen-size"`>
 
 **Included Classes:**   
