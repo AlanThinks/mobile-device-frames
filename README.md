@@ -4,7 +4,7 @@
 Mobile Device Frames by @AlanThinks  
 Version 1.0  
 www.AlanThinks.com  
-github.com/alanthinks  
+www.github.com/alanthinks  
 
 **Includes:**
 1. iPad White Frame
@@ -12,7 +12,7 @@ github.com/alanthinks
 
 **How To Use:**
 *Should be used with 2 divs:*
-1. An outside div with the frame color and type:
+1. An outside div with the frame color AND type:
    ```css
    <div class="white ipad-frame">
    ```
@@ -22,8 +22,52 @@ github.com/alanthinks
     ```
 
 **Included Classes:**   
-**`."color"`** classes should be applied to an outer div where you'll also add the frame  
+**`."color"`** classes should be applied to an outer div where you'll also add the frame
+    Colors available: "white", "black"
 **`."device-frame"`** classes should be applied to an outer div where you'll also add the color  
-**`."device"-screen-size`** classes should be applied to the actual inner component you're working on
+    Frames available: "ipad-frame"
+**`."device"-screen-size`** classes should be applied to the actual inner component you're working on   
+    Device Screen Sizes available: "ipad-screen-size"   
+
+**Implementing in REACT**:
+If you use [Create React App](https://github.com/facebook/create-react-app "Create React App" from Facebook) from Facebook you can implement it in a few ways:  
+1. In your `public/index.html` as so:
+   ```html
+   <div class="white ipad-frame">
+    <div class="ipad-screen-size" id="root"></div>
+   </div>
+   ```
+2. Or in your components as so:
+    ```javascript
+    import React from "react";
+    import Flux from "@4geeksacademy/react-flux-dash";
+    import myStore from "./myStore";
+    import "./device-frames.css
+
+    // External Component Imports
+
+    class App extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+
+        };
+        this.bindStore(myStore);
+    }
+
+    handleStoreChanges() {
+     // Retrieve the stuff from the store
+
+     }
+    render() {
+     return (
+         <div className="white ipad-frame"
+            <div className="App ipad-screen-size">
+                <h1>My App</h1>
+            </div>
+         </div>
+     )
+    }
+    ```
 
 
