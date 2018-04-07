@@ -11,6 +11,7 @@ www.github.com/alanthinks
 2. iPad Black Frame
 
 ### How To Use:
+---
 *Should be used with 2 divs:*
 1. An outside div with the frame color AND type:
    ```css
@@ -30,6 +31,7 @@ www.github.com/alanthinks
     Device Screen Sizes available: "ipad-screen-size"   
 
 ### Implementing in REACT:
+---
 If you use [Create React App](https://github.com/facebook/create-react-app "Create React App" from Facebook) from Facebook you can implement it in a few ways:  
 1. In your `public/index.html` as so:
    ```html
