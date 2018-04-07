@@ -32,7 +32,7 @@ How To Use:
 
 Implementing in REACT:
 ======   
-If you use [Create React App](https://github.com/facebook/create-react-app "Create React App") from Facebook you can implement it in a few ways:  
+If you use Facebook's [Create React App](https://github.com/facebook/create-react-app g"Create React App") you can implement your device frame in a few ways:
 1. In your `public/index.html` as so:
    ```html
    <div class="white ipad-frame">
