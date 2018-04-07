@@ -12,8 +12,10 @@ Includes:
 
 **How To Use:**
 *Should be used with 2 divs:*
-1. Outside div with the frame color and type (eg.```css
-<div class="white ipad-frame">```)
+1. Outside div with the frame color and type:
+```css
+<div class="white ipad-frame">
+```
 2. Inner div where you set the div size to match the device screen size (eg. `<div class="ipad-screen-size"`>
 
 **Included Classes:**   
