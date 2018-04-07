@@ -1,0 +1,92 @@
+/*
+Mobile Device Frames by @AlanThinks
+Version 1.0
+www.AlanThinks.com
+github.com/alanthinks
+
+Includes:
+1. iPad White Frame
+2. iPad Black Frame
+
+How To Use:
+Should be used with 2 divs:
+1. Outside div with the frame color and type (eg. <div class="white ipad-frame">)
+2. Inner div where you set the div size to match the device screen size (eg. <div class="ipad-screen-size">
+
+."device"-screen-div-size classes should be applied to the actual component you're working on
+."device"-"color"-frame classes should be applied to an extra wrapper div around your working component
+*/
+
+/*Cancel Out*/
+body {
+  padding: 0;
+}
+div {
+  margin: 0;
+  padding: 0;
+}
+.no-frame {
+  margin: 0;
+  padding: 0;
+}
+
+/* FRAME COLORS */
+.white {
+  border-style: solid;
+  border-color: rgb(245, 245, 245);
+}
+
+.black {
+  border-style: solid;
+  border-color: rgb(22, 22, 22);
+}
+
+/* SCREEN SIZES FOR YOUR COMPONENT DIVS */
+/* iPad Screen Size For Divs */
+.ipad-screen-size {
+  /* Apply to actual "wrapper" divs of your components */
+  height: 768px; /* iPad Screen Height */
+  width: 1024px; /* iPad Screen Width */
+  margin: auto;
+  outline: solid 2px black;
+  border-right: 1px solid black;
+}
+
+/* DEVICE FRAMES */
+/* iPad Frame */
+.ipad-frame {
+  width: 1214px; /*iPad Screen + Frame Total Size */
+  border-left-width: 95px;
+  border-right-width: 95px;
+
+  border-top-width: 40px;
+  border-bottom-width: 40px;
+
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 35px;
+  box-shadow: 0px 0px 65px black;
+}
+
+.ipad-frame::before {
+  /* iPad Button */
+  content: "";
+  position: absolute;
+  transform: translate(-70px, 362px);
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  border: 2px solid rgba(128, 128, 128, 0.33);
+}
+
+.ipad-frame::after {
+  /* iPad Camera */
+  content: "";
+  position: absolute;
+  transform: translate(1064px, -400px);
+  width: 8px;
+  height: 8px;
+  border: 1px solid rgba(153, 153, 153, 0.33);
+  border-radius: 100%;
+  background-color: rgb(0, 31, 60);
+}
