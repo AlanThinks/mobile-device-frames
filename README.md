@@ -38,11 +38,11 @@ If you use [Create React App](https://github.com/facebook/create-react-app "Crea
    </div>
    ```
 2. Or in your React Components as so:  
-    <code>_Example below includes "React Flux Dash, therefore some terminology changes from a regular React.Component_</code>
+    <code>_Example below includes "React Flux Dash" Flux.Views, therefore some terminology changes from a regular React.Component_</code>
     ```javascript
     import React from "react";
     import Flux from "@4geeksacademy/react-flux-dash";
-    import myStore from "./myStore";
+    import myStore from "./MyStore";
     import "./device-frames.css";
 
     class App extends Flux.View {
@@ -52,7 +52,7 @@ If you use [Create React App](https://github.com/facebook/create-react-app "Crea
 
         };
 
-        this.bindStore(myStore);
+        this.bindStore(MyStore);
     }
 
     handleStoreChanges() {
