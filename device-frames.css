@@ -15,7 +15,13 @@ Should be used with 2 divs:
 
 ."device"-screen-div-size classes should be applied to the actual component you're working on
 ."device"-"color"-frame classes should be applied to an extra wrapper div around your working component
-*/
+
+Example:
+<div class="white ipad-frame">
+  <div class="ipad-screen-size">
+    CONTENT HERE
+  </div>
+</div>
 
 /*Cancel Out*/
 body {
