@@ -42,7 +42,7 @@ If you use [Create React App](https://github.com/facebook/create-react-app "Crea
     import React from "react";
     import Flux from "@4geeksacademy/react-flux-dash";
     import myStore from "./myStore";
-    import "./device-frames.css
+    import "./device-frames.css";
 
     // External Component Imports
 
