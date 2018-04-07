@@ -24,11 +24,11 @@ How To Use:
 
 **Included Classes:**   
 **`."color"`** classes should be applied to an outer div where you'll also add the frame   
-    _Colors available: "white", "black"_
+    _-Colors available: "white", "black"_  
 **`."device-frame"`** classes should be applied to an outer div where you'll also add the color  
-    _Frames available: "ipad-frame"_
+    _-Frames available: "ipad-frame"_  
 **`."device"-screen-size`** classes should be applied to the actual inner component you're working on   
-    _Device Screen Sizes available: "ipad-screen-size"_   
+    _-Device Screen Sizes available: "ipad-screen-size"_   
 
 Implementing in REACT:
 ======   
