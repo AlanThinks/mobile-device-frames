@@ -1,5 +1,5 @@
 # Mobile Device Frames
-## Add Simple CSS iPad Frames to preview your Web App
+#### Add Simple CSS iPad Frames to preview your Web App
 
 Mobile Device Frames by @AlanThinks  
 Version 1.0  
