@@ -37,28 +37,27 @@ If you use [Create React App](https://github.com/facebook/create-react-app "Crea
     <div class="ipad-screen-size" id="root"></div>
    </div>
    ```
-2. Or in your components as so:
+2. Or in your React Components as so:
+    <code>**Example below includes "React Flux Dash, therefore some terminology changes from a regular React.Component**</code>
     ```javascript
     import React from "react";
     import Flux from "@4geeksacademy/react-flux-dash";
     import myStore from "./myStore";
     import "./device-frames.css";
 
-    // External Component Imports
-
-    class App extends React.Component {
+    class App extends Flux.View {
     constructor() {
         super();
         this.state = {
 
         };
+
         this.bindStore(myStore);
     }
 
     handleStoreChanges() {
-     // Retrieve the stuff from the store
-
      }
+
     render() {
      return (
          <div className="white ipad-frame"
@@ -66,7 +65,8 @@ If you use [Create React App](https://github.com/facebook/create-react-app "Crea
                 <h1>My App</h1>
             </div>
          </div>
-     )
+      )
+     }
     }
     ```
 
