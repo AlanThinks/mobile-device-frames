@@ -1,5 +1,5 @@
 # Mobile Device Frames
-#### Add Simple CSS iPad Frames to preview your Web App in any set-up including React
+#### Add Simple CSS iPad Frames to preview your Web App in any set-up including REACT
 
 Mobile Device Frames by @AlanThinks  
 Version 1.0  
