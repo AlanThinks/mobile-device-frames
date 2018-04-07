@@ -30,8 +30,7 @@ www.github.com/alanthinks
 **`."device"-screen-size`** classes should be applied to the actual inner component you're working on   
     Device Screen Sizes available: "ipad-screen-size"   
 
-### Implementing in REACT:
----
+### Implementing in REACT:---
 If you use [Create React App](https://github.com/facebook/create-react-app "Create React App" from Facebook) from Facebook you can implement it in a few ways:  
 1. In your `public/index.html` as so:
    ```html
