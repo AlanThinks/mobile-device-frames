@@ -37,8 +37,8 @@ If you use [Create React App](https://github.com/facebook/create-react-app "Crea
     <div class="ipad-screen-size" id="root"></div>
    </div>
    ```
-2. Or in your React Components as so:
-    <code>**Example below includes "React Flux Dash, therefore some terminology changes from a regular React.Component**</code>
+2. Or in your React Components as so:  
+    <code>_**Example below includes "React Flux Dash, therefore some terminology changes from a regular React.Component**_</code>
     ```javascript
     import React from "react";
     import Flux from "@4geeksacademy/react-flux-dash";
