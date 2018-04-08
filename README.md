@@ -63,7 +63,7 @@ If you use Facebook's [Create React App](https://github.com/facebook/create-reac
     render() {
      return (
          <div className="white ipad-frame"
-            <div className="App ipad-screen-size">
+            <div className="ipad-screen-size">
                 <h1>My App</h1>
             </div>
          </div>
